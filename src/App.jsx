@@ -9,7 +9,7 @@ function App() {
     e.preventDefault();
 
     try{
-      const  response = await fetch("http://localhost:5000/tests" , {
+      const  response = await fetch("https://datasave.vercel.app/api/serverless" , {
         method : "POST",
         headers : {
           "Content-Type" : "application/json"
